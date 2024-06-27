@@ -1,0 +1,97 @@
+
+form{
+    background-color:rgb(190, 189, 189);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="file"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+input[type="radio"] + label:before,
+input[type="checkbox"] + label:before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background: white;
+}
+input[type="radio"]:checked + label:before,
+input[type="checkbox"]:checked + label:before {
+    background: green;
+}
+
+input[type="radio"]:checked + label:after,
+input[type="checkbox"]:checked + label:after {
+    content: '✔';
+    position: absolute;
+    top: 0.1em;
+    left: 0.1em;
+    font-size: 1em;
+    color: white;
+}
+.enviar{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+    
+    color: rgb(0, 238, 255);
+    
+    ;
+}
+.enviar:hover {
+    background-color: #0022AA;
+}
+.borrar {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+    color: rgb(0, 238, 255);
+}
+
+.borrar:hover {
+    background-color: #0022AA;
+}
