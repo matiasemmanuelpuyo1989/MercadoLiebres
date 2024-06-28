@@ -237,7 +237,12 @@ div.carrito{
 
     }
     
-
+    
+    @media(min-width: 768px) {
+        .burger-menu{
+            display:none;
+        }
+    }
 
 
     
