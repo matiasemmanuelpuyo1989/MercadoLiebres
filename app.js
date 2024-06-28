@@ -2,13 +2,13 @@ const express=require('express');
 const path = require("node:path");
 const app= express();
 
-
+const port = process.env.PORT || 3000;
 
 app.get("/",(req, res)=>{
     res.sendFile(path.resolve("views/home.html"));
 });
 
-app.listen(3030, (err) => console.log("Server run: http://www.localhost:3030"))
+app.listen(port, (err) => console.log("Server run: http://www.localhost:3000"))
 
 app.use(express.static("./public"));
 
