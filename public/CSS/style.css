@@ -272,7 +272,7 @@ div.carrito{
         display: flex;
         justify-content: space-around;
         padding: 20px;
-        background-color: rgb(109, 159, 189);
+        
         
     }
     
@@ -296,4 +296,27 @@ div.carrito{
         font-size: 14px;
         color: rgb(20, 19, 19);
     }
+    .formadepago i {
+        color: initial; /* Color inicial del ícono */
+      }
+      
+      .formadepago i:hover {
+        color: red; /* Color al pasar el cursor */
+      }
+      
+      .envios i {
+        color: initial; /* Color inicial del ícono */
+      }
+      
+      .envios i:hover {
+        color: green; /* Color al pasar el cursor */
+      }
+      
+      .seguridad i {
+        color: initial; /* Color inicial del ícono */
+      }
+      
+      .seguridad i:hover {
+        color: blue; /* Color al pasar el cursor */
+      }
     
