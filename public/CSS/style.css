@@ -23,6 +23,21 @@ header{
     font-size: 18px;
 }
 
+  header .buscador input[type="search"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  header .buscador button.icon {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    cursor: pointer;
+    padding: 6px 10px;
+  }
 
 .products {
     
