@@ -195,7 +195,7 @@ footer i{
 div.carrito{
     display: flex;
     position:relative ;
-    left: 200px;
+    left: 100px;
     top: -60px
 }
 .carrito i {
