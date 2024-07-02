@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -210,7 +210,7 @@ footer i{
 div.carrito{
     display: flex;
     position:relative ;
-    left: 100px;
+    left: 80px;
     top: -60px
 }
 .carrito i {
