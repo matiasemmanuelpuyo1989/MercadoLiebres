@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: "Roboto", sans-serif;
+
+}
 
 main {
     width: 90%;
@@ -19,9 +23,10 @@ header{
     font-size: 9px;
     text-align: center;
     margin: 20px 0;
-    flex-direction:row-reverse;
+    flex-direction:row;
+    justify-content: flex-end;
     position: relative;
-    top: -128px;
+    top: -140px;
 }
 .parrafo p{
     display: flex;
