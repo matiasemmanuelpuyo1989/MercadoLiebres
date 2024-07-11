@@ -114,6 +114,7 @@ header{
 }
 #panel{
     width: 100%;
+    display: block;
 }
 
 .a1{
